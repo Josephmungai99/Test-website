@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Contact Information</title>
+    </head>
+    <body>
+        <table cellspacing = "10">
+            <tr>
+                <td>
+                    <a href = "index.html">
+                    <img src = "joseph.jpg" alt="joseph profile image" height = "150" width = "150">
+                </td>
+                <td>
+                    <table cellspacing = "10">
+                        <tr>
+                            <td>
+                                <strong>Email:</strong>
+                            </td>
+                            <td><a href = "mailto:josephmburumungai99@gmail.com"> josephmburumungai99@gmail.com </a>
+                        </tr>
+                        <tr>
+                            <td><strong>Mobile No:</strong></td>
+                            <td>+254712466330</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Whatsapp:</strong>
+                            </td>
+                            <td>+254712466330</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <p>Input your name below and press submit.</p>
+        <form>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <input type = "submit" value = "Submit">
+        </form>
+        <p>What is your favourite subject?</p>
+        <form>
+            <input type="radio" id = "cre" name="fav_subject" value = "CRE">
+            <label for="cre">CRE</label><br>
+            <input type="radio" id = "chemistry" name="fav_subject" value = "Chemistry">
+            <label for="chemistry">Chemistry</label><br>
+            <input type="radio" id = "english" name="fav_subject" value = "English">
+            <label for="english">English</label><br>
+            <input type = "submit" value = "Submit">
+
+        </form>
+
+        <p>What is your email?</p>
+        <form>
+            <label for="email">Enter your email address</label><br>
+            <input type = "email" id = "email" name = "email">
+            <input type = "submit" value = "Submit">
+        </form>
+        <form>
+            <label for = "birthday">Birthday</label><br>
+            <input type = "date" id = "birthday" name = "birthday" max = "2000-01-01"><br>
+            <input type = "submit" value = "Submit">
+        </form>
+
+    </body>
+</html>
